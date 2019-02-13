@@ -1,9 +1,16 @@
+####
+# PyBank 
+####
+
+# Import dependencies
 import os
 import csv
 
+# specify path of text file and specify path of analysis file for output 
 csvpybank = os.path.join('..', 'Resources', 'budget_data.csv')
 output_path = os.path.join("analysis", "bank_analysis.txt")
 
+# read text file
 with open(csvpybank, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     csv_header = next(csvreader)
