@@ -1,6 +1,7 @@
 # python
 
 PYBANK
+
 Analysis of the changes in Profits. 
 The dataset is composed of two columns: `Date` and `Profit/Losses`. 
 We created a Python script that analyzes the records to calculate each of the following:
@@ -28,9 +29,7 @@ We created a Python script that analyzes the records to calculate each of the fo
   
   PYPOLL
 
-Vote-Counting
-
-Our task was helping a small, rural town modernize its vote-counting process.
+Vote-Counting. Our task was helping a small, rural town modernize its vote-counting process.
 
 We used a set of poll data called [election_data.csv]. The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
 
